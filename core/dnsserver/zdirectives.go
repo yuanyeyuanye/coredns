@@ -38,7 +38,6 @@ var Directives = []string{
 	"template",
 	"transfer",
 	"hosts",
-	"kubernetes",
 	"file",
 	"auto",
 	"secondary",
