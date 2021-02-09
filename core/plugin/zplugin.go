@@ -21,6 +21,7 @@ import (
 	_ "github.com/coredns/coredns/plugin/errors"
 	_ "github.com/coredns/coredns/plugin/file"
 	_ "github.com/coredns/coredns/plugin/forward"
+	_ "github.com/coredns/coredns/plugin/git"
 	_ "github.com/coredns/coredns/plugin/grpc"
 	_ "github.com/coredns/coredns/plugin/health"
 	_ "github.com/coredns/coredns/plugin/hosts"
@@ -43,5 +44,4 @@ import (
 	_ "github.com/coredns/coredns/plugin/tls"
 	_ "github.com/coredns/coredns/plugin/transfer"
 	_ "github.com/coredns/coredns/plugin/whoami"
-	_ "github.com/miekg/coredns-git"
 )
